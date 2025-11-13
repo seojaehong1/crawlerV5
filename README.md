@@ -4,7 +4,7 @@
    - `python -m venv venv`
    - Windows: `venv\Scripts\activate`
 2. 필요한 패키지를 설치합니다.
-   - `pip install playwright pandas`
+   - `pip install -r require.txt`
    - Playwright 브라우저 드라이버 초기화: `playwright install`
 3. 패턴 학습 스크립트 실행:
    - `python pattern_learn.py --category-url <카테고리_URL> --pages 1 --items-per-page 0`
